@@ -114,8 +114,8 @@ type port struct {
 type metadata map[string]string
 
 const (
-	appPath      = "%s/eureka/v2/apps/%s"
-	instancePath = "%s/eureka/v2/apps/%s/%s"
+	appPath      = "%s/apps/%s"
+	instancePath = "%s/apps/%s/%s"
 )
 
 type client struct {
